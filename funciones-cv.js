@@ -15,7 +15,6 @@ window.onclick = function(event) {
   }
 }
 
-
 let modal2 = document.getElementById("miModal-2");
 let btn2 = document.getElementById("boton-modal-2");
 let span2 = document.getElementsByClassName("cerrar-2")[0];

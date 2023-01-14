@@ -1,3 +1,4 @@
+
 let ElementosAcordeon = document.getElementsByClassName("acordeon");
 for (let i = 0; i< ElementosAcordeon.length; i++) {
     ElementosAcordeon[i].addEventListener("click",function() {
