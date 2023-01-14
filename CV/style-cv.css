@@ -1,0 +1,222 @@
+body {
+    background-color: #4C4C4C;
+}
+header {
+    font-family: 'Comfortaa', cursive;
+    border: 2px solid black;
+    background-color: #E06E6E;
+    padding: 0px 25px 40px 25px;
+    margin-top: 0px;
+}
+div {
+    float: right;
+}
+h1 {
+    font-size: 70px;
+    margin-right: 30px;
+    margin-bottom: 5px;
+    
+}
+#mifoto {
+    padding: 20px 20px 0px 25px;
+    width: 200px;
+    height: 220px;
+}
+.btn-grupo {
+    background-color:black;
+    color: #E06E6E;
+    cursor: pointer;
+}
+.btn-grupo:hover {
+    background-color: #4C4C4C;
+}
+
+.modal-redes {
+    display: none; 
+    position: absolute; 
+    z-index: 1; 
+    left: 310px;
+    top: 115px;
+    bottom: 0px;
+    width: 50%; 
+    height: 50%;   
+}
+
+#redes-lista {
+    padding: 0px 12px;
+    margin: 2px;
+}
+.modal-contenido-redes {
+    background-color: #E06E6E;
+    margin: 15% auto;
+    padding: 0px;
+    border: 2px solid black;
+    width: 30%; 
+    font-size: 10px;
+}
+.cerrar-1 {
+    color: black;
+    float: right;
+    font-size: 15px;
+    margin-right: 3px;
+} 
+.cerrar-1:hover {
+    color: #cdcdcd4d;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-contacto {
+    display: none; 
+    position: absolute; 
+    z-index: 1; 
+    left: 420px;
+    top: 145px;
+    bottom: 0px;
+    width: 50%; 
+    height: 50%;   
+}
+
+#contactos-lista {
+    padding: 0px 30px;
+    margin: 2px;
+}
+
+.modal-contenido-contacto {
+    background-color: #E06E6E;
+    margin: 15% auto;
+    padding: 0px;
+    border: 2px solid black;
+    width: 30%; 
+    font-size: 10px;
+}
+.cerrar-2 {
+    color: black;
+    float: right;
+    font-size: 15px;
+    margin-right: 3px;
+  } 
+.cerrar-2:hover {
+    color: #cdcdcd4d;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+aside {
+    float: left;
+    width: 30%;
+    height: 100%;
+    background-color:#cdcdcd4d;
+    margin-left: 10px;
+}
+hr {
+    margin: 10px 2px 2px 2px;
+    background-color: black;
+    border-color: black;
+}
+#estudiosTitulo {
+    padding-left: 20px;
+    margin: 0px;
+}
+.infoEstudios {
+    padding-left: 10px;
+    margin: 4px;
+    font-size: 15px;
+}
+button {
+    margin-left: 15px;
+    background-color: #cdcdcd4d;
+    cursor: pointer;
+    color: black;
+}
+button:hover {
+    background-color: #E06E6E;
+}
+.fechas {
+    padding-left: 10px;
+    margin: 4px;
+    font-size: 11px;
+}
+main {
+    align-content: center;
+    float: right;
+    width: 65%;
+    height: 400px;
+}
+
+.acordeon {
+    margin-top: 10px;
+    width: 95%;
+    cursor: pointer;
+    background-color: #4C4C4C;
+    color:  #E06E6E;
+    font-weight: bold;
+    font-size: x-large;
+}
+.acordeon:hover {
+    background-color: #cdcdcd4d;
+}
+.panel {
+    display: none;
+    width: 594px;
+    margin-right: 17px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.acordeon:after {
+    content: '\02795'; 
+    font-size: 9px;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+    margin-top: 7px;
+}
+.active:after {
+    content: "\2796"; 
+}
+
+.modal-obs {
+    display: none; 
+    position: absolute; 
+    z-index: 1; 
+    left: 375px;
+    top: 450px;
+    bottom: 0px;
+    width: 50%; 
+    height: 50%;   
+  }
+.modal-contenido-obs {
+    background-color: #E06E6E;
+    margin: 15% auto;
+    padding: 10px;
+    border: 1px solid black;
+    width: 80%; 
+  }
+.cerrar-4 {
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  } 
+.cerrar-4:hover {
+    color: #cdcdcd4d;
+    text-decoration: none;
+    cursor: pointer;
+  }
+.cerrar-5 {
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  } 
+.cerrar-5:hover {
+    color: #cdcdcd4d;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#salir {
+    float: right;
+    margin-top: 200px;
+}
