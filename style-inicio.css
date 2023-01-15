@@ -60,3 +60,12 @@ button {
 button:hover {
     background-color: #cdcdcd4d;
 }
+
+@media screen and (max-width: 450px) {
+    header {
+      padding-bottom: 8px;
+    }
+    .acordeon {
+        width: 30%;
+    }
+}
